@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh -X cs11faoo@ieng6.ucsd.edu
+ssh -X cs11faoo@ieng6-244
