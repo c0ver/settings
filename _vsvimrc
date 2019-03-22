@@ -1,0 +1,16 @@
+let mapleader=","
+
+" break out of the tyranny of text! Navigate by method
+nnoremap m :vsc Edit.NextMethod<cr>
+nnoremap M :vsc Edit.PreviousMethod<cr>
+
+" jump between compilation errors
+nnoremap e :vsc View.NextError<cr>
+nnoremap E :vsc View.PreviousError<cr>
+
+nnoremap R :vsc Refactor.Rename<cr>
+
+nnoremap fr :vsc Edit.FindAllReferences<CR>
+nnoremap pd :vsc Edit.PeekDefinition<CR>
+
+nnoremap gi :vsc Edit.GoToImplementation<CR>
